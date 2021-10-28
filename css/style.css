@@ -1,0 +1,52 @@
+body {
+  background-color: #06091f;
+}
+.con {
+  max-width: 1170px;
+  width: 45vw;
+  margin: 0 auto;
+  color: #fff;
+}
+.d-flex {
+  justify-content: space-between;
+  align-items: self-end;
+}
+.d-flex > div {
+  background-color: #2294f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 20
+px
+0 0; */
+  position: relative;
+}
+.d-flex > div span {
+  display: block;
+  background-color: #127cd7;
+  position: absolute;
+  /* margin-top: 21
+px
+; */
+  /* padding: 3
+px
+ 0; */
+  width: 100%;
+  bottom: 0;
+  padding: 5px 0;
+}
+.d-flex > div:not(:last-of-type) {
+  height: 150px;
+  width: calc(86% / 3);
+}
+.d-flex > div:last-of-type {
+  width: 10%;
+  background-color: #fff;
+  color: #000;
+}
+h6 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
